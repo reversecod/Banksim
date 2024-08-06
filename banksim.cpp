@@ -17,10 +17,6 @@ void clear_screen() {
 }
 #endif
 
-
-
-
-
 int main() {
     int dia, mes;
     float saldo_inicial, limite_inicial;
