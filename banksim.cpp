@@ -1,21 +1,4 @@
-#include <iostream>
-#include <iomanip>  // Para setprecision
-#include <sstream>  // Para stringstream
-#include <map>
-#include <vector>
-#include <string>
 #include "banksim.hpp"
-using namespace std;
-
-#ifdef _WIN32
-#include <windows.h>
-void clear_screen() {
-    system("cls");
-}
-#else
-void clear_screen() {
-}
-#endif
 
 int main() {
     int dia, mes;
