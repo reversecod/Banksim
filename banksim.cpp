@@ -30,6 +30,7 @@ int main() {
         cout << "9 - Avancar o dia" << endl;
         cout << "10 - Mais opcoes" << endl;
         cout << "0 - Sair" << endl;
+        cout << "\n-------------------\n";
 
         int opcao;
         cout << "Digite a opcao desejada: ";
