@@ -41,7 +41,7 @@ void ContaBancaria::depositar(float valor) {
     cout << acao << endl;
 }
 
-void ContaBancaria::sacar(float valor, bool debito = true) {
+void ContaBancaria::sacar(float valor, bool debito) {
     if (debito) {
         if (saldo >= valor) {
             saldo -= valor;
