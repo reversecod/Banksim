@@ -3,20 +3,17 @@
 #include <sstream>  // Para stringstream
 #include <map>
 #include <vector>
+#include <windows.h>
 #include "banksim.hpp"
 
 using namespace std;
 
-#ifdef _WIN32
-#include <windows.h>
 void clear_screen() {
     system("cls");
 }
-#else
 void clear_screen() {
 
 }
-#endif
 
 ContaBancaria::ContaBancaria(float saldo, float limite_credito)
     : saldo(saldo), limite_credito(limite_credito), fatura(0), caixinha(0) {}

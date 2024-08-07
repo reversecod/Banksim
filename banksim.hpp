@@ -1,6 +1,4 @@
-#ifndef BANKSIM_HPP
-#define BANKSIM_HPP
-
+#pragma once
 #include <iostream>
 #include <iomanip>
 #include <sstream>
@@ -37,5 +35,3 @@ public:
 void mais_opcoes(ContaBancaria& conta);
 
 void clear_screen();
-
-#endif
