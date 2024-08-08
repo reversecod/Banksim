@@ -33,5 +33,4 @@ public:
 };
 
 void mais_opcoes(ContaBancaria& conta);
-
-void clear_screen();
+void clear_screen(); 

@@ -1,18 +1,9 @@
-#include <iostream>
-#include <iomanip>  // Para setprecision
-#include <sstream>  // Para stringstream
-#include <map>
-#include <vector>
-#include <windows.h>
 #include "banksim.hpp"
 
 using namespace std;
 
 void clear_screen() {
     system("cls");
-}
-void clear_screen() {
-
 }
 
 ContaBancaria::ContaBancaria(float saldo, float limite_credito)

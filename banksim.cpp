@@ -1,4 +1,3 @@
-#include <iostream>
 #include "banksim.hpp"
 
 int main() {
@@ -36,7 +35,6 @@ int main() {
         int opcao;
         cout << "Digite a opcao desejada: ";
         cin >> opcao;
-        clear_screen();
 
         switch (opcao) {
             case 1:
