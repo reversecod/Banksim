@@ -6,8 +6,7 @@ void clear_screen() {
     system("cls");
 }
 
-ContaBancaria::ContaBancaria(float saldo, float limite_credito)
-    : saldo(saldo), limite_credito(limite_credito), fatura(0), caixinha(0) {}
+ContaBancaria::ContaBancaria(float saldo, float limite_credito) : saldo(saldo), limite_credito(limite_credito), fatura(0), caixinha(0) {}
 
 string ContaBancaria::formatar_valor(float valor) {
     stringstream ss;
